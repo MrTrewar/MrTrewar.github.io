@@ -1,9 +1,6 @@
-const canvasSketch = require('canvas-sketch');
-const random = require('canvas-sketch-util/random');
-const math = require('canvas-sketch-util/math');
-const eases = require('eases')
-const colormap = require('colormap')
-const interpolate = require('color-interpolate');
+// Bibliotheken müssen per <script> Tag in index.html eingebunden werden!
+const random = canvasSketchUtil.random;
+const math = canvasSketchUtil.math;
 
 const settings = {
   dimensions: [1080, 1080], 
