@@ -234,3 +234,7 @@ class Particle {
     context.restore();
   }
 }
+
+console.log("Canvas gefunden:", elCanvas);
+console.log("Sketch läuft");
+console.log("Particles geladen:", particles.length);
