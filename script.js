@@ -1,6 +1,6 @@
 // Bibliotheken müssen per <script> Tag in index.html eingebunden werden!
-const random = canvasSketchUtil.random;
-const math = canvasSketchUtil.math;
+const random = window.canvasSketchUtil.random;
+const math = window.canvasSketchUtil.math;
 
 const settings = {
   dimensions: [1080, 1080], 
